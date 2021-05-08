@@ -1,0 +1,20 @@
+These are some basic commands in Linux
+pwd- This command used to know the in which directory we are in.
+mkdir- This command is used to create a folder or directory.
+cd- This command is used to go to a specific directory. If we just type “cd” then it takes to a home or         root directory.
+rmdir- This command is used to delete an empty directory.
+rm- This command is used to delete files and directories and “rm-r” is used to delete just directory.
+touch- This command is used to create a any type of file.
+cp- This command is used to copy files through the command line. It takes two arguments.
+mv- If we want to rename the file then we can use this command. It also takes two arguments.
+cat- This command is used to display the content of the file.
+df- To see the available disk space in each of the partition in our system we can use this command.
+chmod- To make file executable we can use this command. We can also change the permissions granted by using this command.
+ping- This command is used to check connection to a server.
+uname- This command is used to the information of system.
+sudo- If we want to done with root privileges we can use this command. sudo stands for superuser do.
+man- We can use this command to know more about  how to use any specific command.
+ls- This command is used to know what files in the directory we are in.
+top- top commands displays the processor activities.
+head- This command will print the first part of the file.
+tail- This will print the last part of the file.
