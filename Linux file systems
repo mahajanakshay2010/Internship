@@ -1,0 +1,27 @@
+Directories and their purposes
+                                 The directories along with their subdirectories are the integral part of the root filesystem.
+1)	/bin= This directory contains the user executable files
+2)	/boot= This directory contains the kernel executable and configuration files required to boot computer
+3)	 /dev= This directory contains the device files for every hardware device attached to the system.
+4)	/etc= This directory  contains the local system configuration files for the host computer.
+5)	/home= This directory is for the user files. Each user ahs a subdirectory in /home.
+6)	/lib= This directory contains the shared library files that are required to boot the system.
+7)	/root=This is the home directory for the root user. /media and /mnt are part of root filesystem.
+8)	/sbin= Called as system binary fles. These are executable files used for system administration.
+9)	/tmp=This is temporary directory. This directory is used by the OS to store temporary files. Files which are stored here may be deleted without any prior notification.
+10)	/usr= These are shareable, read-only files, which includes executable binaries and libraries and other types of files also.
+11)	/var= Variable data files ae stored in this directory. The files may include log files, MySQL and other database related files.
+
+Soft links and hard links
+Soft links
+1)Soft link is the actual link to the original file
+2) After deleting  the files there is no value to the soft link.
+3)It has the different inode number.
+4)It has only the path of the system but not the content of the file.
+
+
+Hard link
+1)Hard link is the mirror copy of the original file. 
+2) Even if we delete the original file, hard link still has the data of the file.
+3) It has the same inode number
+4) It has the actual content of the original file.
